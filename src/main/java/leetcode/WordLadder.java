@@ -5,6 +5,16 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.ListIterator;
 
+/*
+Problem:
+A transformation sequence from word beginWord to word endWord using a dictionary wordList is a sequence of words such that:
+The first word in the sequence is beginWord.
+The last word in the sequence is endWord.
+Only one letter is different between each adjacent pair of words in the sequence.
+Every word in the sequence is in wordList.
+Given two words, beginWord and endWord, and a dictionary wordList, return the number of words in the shortest transformation sequence from beginWord to endWord, or 0 if no such sequence exists.
+*/
+
 public class WordLadder {
   public static void main(String[] args) {
     WordLadder obj = new WordLadder();
